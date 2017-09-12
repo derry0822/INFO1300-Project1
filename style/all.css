@@ -34,11 +34,13 @@ body {
   color: #b3b3b3;
   font-family: 'Helvetica', sans-serif;
   font-size: 22px;
+  font-weight: 300;
   letter-spacing: 3px;
   text-decoration: none;
 }
 
 #navbar a:hover {
+  font-weight: 400;
   color: #FFF;
 }
 
@@ -62,6 +64,7 @@ body {
 
 .fa:hover {
   border-color: #FFF;
+  font-weight: bold;
   color: #FFF;
 }
 
