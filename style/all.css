@@ -43,6 +43,8 @@ body {
 }
 
 #social-media {
+  position: relative;
+  top: 5px;
   margin-left: 80%;
 }
 
@@ -120,15 +122,21 @@ body {
 #about {
   position: relative;
   height: 500px;
-  width: 60%;
+  width: 700px;
   top: 100px;
-  left: 25%;
+  left: 23%;
   font-family: "Helvetica", sans-serif;
   color: #d9d9d9;
 }
 
 #about h1 {
+  padding-left: 10px;
+  font-size: 45px;
   font-weight: 300;
+}
+
+#about p {
+  line-height: 1.5;
 }
 
 #about img {
@@ -136,4 +144,36 @@ body {
   width: 300px;
   height: 341px;
   margin-right: 20px;
+}
+
+.indent {
+  margin-left: 4em;
+}
+
+/*Contact Page Styling*/
+#contact {
+  position: relative;
+  height: 400px;
+  width: 500px;
+  top: 200px;
+  left: 200px;
+  font-family: "Helvetica", sans-serif;
+  color: #d9d9d9;
+}
+
+#contact p {
+  line-height: 1.5;
+}
+
+#contact a {
+  color: inherit;
+}
+
+#contact a:hover {
+  color: #FFF;
+}
+
+#contact h2 {
+  font-size: 30px;
+  font-weight: 300;
 }
