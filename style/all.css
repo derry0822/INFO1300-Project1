@@ -148,6 +148,15 @@ body {
   line-height: 1.5;
 }
 
+#about a {
+  color: inherit;
+}
+
+#about a:hover {
+  font-weight: bold;
+  color: #FFF;
+}
+
 #about img {
   border-style: solid;
   border-width: 10px;
@@ -182,6 +191,7 @@ body {
 }
 
 #contact a:hover {
+  font-weight: bold;
   color: #FFF;
 }
 
